@@ -89,4 +89,4 @@ Le pupitre de monitoring est accessible via `/monitor`.
 
 ---
 
-© 2026 Titanic MLOps Platform — Division Gérance des Risques. Les prédictions sont basées sur des probabilités statistiques historiques.
+© 2026 Titanic MLOps Platform 
