@@ -21,9 +21,10 @@ env/
 .idea/
 
 # Models & MLOps (Heavy / Runtime files)
-# models/*.pkl
-# models/*.joblib
-# models/*.json
+models/*.pkl
+models/*.joblib
+models/*.json
+notebooks/models/
 prediction_logs.json
 !models/.gitkeep
 
@@ -44,5 +45,10 @@ Thumbs.db
 # Environment & Config
 .env
 .env.local
+.fastapicloud/
 *.sqlite3
 *.db
+
+# Documents & Meta
+*.docx
+response.md
