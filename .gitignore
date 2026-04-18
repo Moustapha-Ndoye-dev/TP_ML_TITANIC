@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+
+# Models & MLOps (Heavy / Runtime files)
+# models/*.pkl
+# models/*.joblib
+# models/*.json
+prediction_logs.json
+!models/.gitkeep
+
+# Data (Ignore large dataset files but keep directory)
+# data/*.csv
+# !data/.gitkeep
+
+# Reports & Artifacts
+reports/figures/*.png
+reports/figures/*.jpg
+scratch/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment & Config
+.env
+.env.local
+*.sqlite3
+*.db

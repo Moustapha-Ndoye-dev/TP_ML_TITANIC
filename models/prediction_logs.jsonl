@@ -1,0 +1,27 @@
+{"timestamp": "2026-04-17T23:13:23.618386", "name": "Moustapha Ndoye", "sex": "male", "age": 35.0, "pclass": 1, "fare": 25.0, "sibsp": 1, "parch": 0, "embarked": "S", "survived": true, "probability": 1.0}
+{"timestamp": "2026-04-17T23:13:36.419877", "name": "Moustapha Ndoye", "sex": "male", "age": 35.0, "pclass": 1, "fare": 25.0, "sibsp": 1, "parch": 2, "embarked": "S", "survived": false, "probability": 0.0}
+{"timestamp": "2026-04-17T23:13:44.138196", "name": "Moustapha Ndoye", "sex": "male", "age": 35.0, "pclass": 1, "fare": 25.0, "sibsp": 1, "parch": 1, "embarked": "S", "survived": true, "probability": 1.0}
+{"timestamp": "2026-04-17T23:13:50.482289", "name": "Moustapha Ndoye", "sex": "male", "age": 35.0, "pclass": 1, "fare": 25.0, "sibsp": 1, "parch": 0, "embarked": "S", "survived": true, "probability": 1.0}
+{"timestamp": "2026-04-17T23:13:57.413301", "name": "Moustapha Ndoye", "sex": "male", "age": 35.0, "pclass": 1, "fare": 25.0, "sibsp": 2, "parch": 0, "embarked": "S", "survived": true, "probability": 1.0}
+{"timestamp": "2026-04-17T23:14:02.973501", "name": "Moustapha Ndoye", "sex": "male", "age": 25.0, "pclass": 1, "fare": 25.0, "sibsp": 2, "parch": 0, "embarked": "S", "survived": true, "probability": 1.0}
+{"timestamp": "2026-04-17T23:14:04.976874", "name": "Moustapha Ndoye", "sex": "male", "age": 25.0, "pclass": 1, "fare": 25.0, "sibsp": 2, "parch": 0, "embarked": "S", "survived": true, "probability": 1.0}
+{"timestamp": "2026-04-17T23:14:10.584570", "name": "Moustapha Ndoye", "sex": "male", "age": 25.0, "pclass": 2, "fare": 25.0, "sibsp": 2, "parch": 0, "embarked": "S", "survived": false, "probability": 0.0}
+{"timestamp": "2026-04-17T23:14:24.028589", "name": "Moustapha Ndoye", "sex": "male", "age": 25.0, "pclass": 1, "fare": 25.0, "sibsp": 2, "parch": 0, "embarked": "Q", "survived": true, "probability": 1.0}
+{"timestamp": "2026-04-17T23:14:39.337897", "name": "Moustapha Ndoye", "sex": "male", "age": 25.0, "pclass": 1, "fare": 5.0, "sibsp": 2, "parch": 0, "embarked": "Q", "survived": true, "probability": 1.0}
+{"timestamp": "2026-04-17T23:14:43.141310", "name": "Moustapha Ndoye", "sex": "male", "age": 25.0, "pclass": 1, "fare": 5.0, "sibsp": 2, "parch": 1, "embarked": "Q", "survived": true, "probability": 1.0}
+{"timestamp": "2026-04-17T23:14:45.926596", "name": "Moustapha Ndoye", "sex": "male", "age": 25.0, "pclass": 1, "fare": 5.0, "sibsp": 2, "parch": 1, "embarked": "Q", "survived": true, "probability": 1.0}
+{"timestamp": "2026-04-17T23:14:52.305233", "name": "Moustapha Ndoye", "sex": "male", "age": 25.0, "pclass": 1, "fare": 5.0, "sibsp": 2, "parch": 2, "embarked": "Q", "survived": false, "probability": 0.0}
+{"timestamp": "2026-04-17T23:14:56.699660", "name": "Moustapha Ndoye", "sex": "male", "age": 25.0, "pclass": 1, "fare": 5.0, "sibsp": 2, "parch": 1, "embarked": "Q", "survived": true, "probability": 1.0}
+{"timestamp": "2026-04-18T00:51:41.343935", "name": "Dawson, Mr. Jack", "sex": "male", "age": 20.0, "pclass": 3, "fare": 8.05, "sibsp": 0, "parch": 0, "embarked": "S", "survived": true, "probability": 0.7137}
+{"timestamp": "2026-04-18T01:55:40.958152", "name": "Dawson, Mr. Jack", "sex": "male", "age": 20.0, "pclass": 3, "fare": 8.05, "sibsp": 0, "parch": 0, "embarked": "S", "survived": true, "probability": 0.7137}
+{"timestamp": "2026-04-18T02:12:37.922644", "name": "Moustapha Ndoye", "sex": "male", "age": 24.0, "pclass": 2, "fare": 20.0, "sibsp": 2, "parch": 0, "embarked": "Q", "survived": true, "probability": 0.6049}
+{"timestamp": "2026-04-18T02:12:49.173743", "name": "Moustapha Ndoye", "sex": "male", "age": 24.0, "pclass": 3, "fare": 20.0, "sibsp": 2, "parch": 0, "embarked": "Q", "survived": false, "probability": 0.442}
+{"timestamp": "2026-04-18T02:26:02.226836", "name": "Moustapha", "sex": "male", "age": 25.0, "pclass": 2, "fare": 21.0, "sibsp": 2, "parch": 0, "embarked": "S", "survived": true, "probability": 0.6007}
+{"timestamp": "2026-04-18T02:26:11.775266", "name": "Moustapha", "sex": "male", "age": 25.0, "pclass": 2, "fare": 21.0, "sibsp": 2, "parch": 0, "embarked": "S", "survived": true, "probability": 0.6007}
+{"timestamp": "2026-04-18T02:26:12.933303", "name": "Moustapha", "sex": "male", "age": 25.0, "pclass": 2, "fare": 21.0, "sibsp": 2, "parch": 0, "embarked": "S", "survived": true, "probability": 0.6007}
+{"timestamp": "2026-04-18T02:26:14.132595", "name": "Moustapha", "sex": "male", "age": 25.0, "pclass": 2, "fare": 21.0, "sibsp": 2, "parch": 0, "embarked": "S", "survived": true, "probability": 0.6007}
+{"timestamp": "2026-04-18T02:26:28.860703", "name": "Moustapha", "sex": "male", "age": 25.0, "pclass": 2, "fare": 21.0, "sibsp": 2, "parch": 0, "embarked": "S", "survived": true, "probability": 0.6007}
+{"timestamp": "2026-04-18T02:26:30.204121", "name": "Moustapha", "sex": "male", "age": 25.0, "pclass": 2, "fare": 21.0, "sibsp": 2, "parch": 0, "embarked": "S", "survived": true, "probability": 0.6007}
+{"timestamp": "2026-04-18T03:49:57.611641", "name": "moustapha", "sex": "male", "age": 23.0, "pclass": 2, "fare": 45.0, "sibsp": 2, "parch": 0, "embarked": "S", "survived": true, "probability": 0.6812}
+{"timestamp": "2026-04-18T03:50:22.316006", "name": "moustapha", "sex": "male", "age": 23.0, "pclass": 2, "fare": 45.0, "sibsp": 2, "parch": 0, "embarked": "S", "survived": true, "probability": 0.6812}
+{"timestamp": "2026-04-18T03:50:23.326676", "name": "moustapha", "sex": "male", "age": 23.0, "pclass": 2, "fare": 45.0, "sibsp": 2, "parch": 0, "embarked": "S", "survived": true, "probability": 0.6812}
