@@ -1,11 +1,10 @@
-# 🚢 Titanic MLOps Platform : IA Explicable & Gouvernance Industrielle
+# 🚢 Titanic MLOps Platform : Gouvernance Industrielle
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-Production--Ready-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://titanic-c021df7f.fastapicloud.dev)
 [![MLOps](https://img.shields.io/badge/MLOps-Lifecycle-blue?style=for-the-badge&logo=opsgenie)](https://github.com/Moustapha-Ndoye-dev/TP_ML_TITANIC)
-[![XAI](https://img.shields.io/badge/IA--Explicable-XAI-ff69b4?style=for-the-badge)](https://titanic-c021df7f.fastapicloud.dev)
 [![Status](https://img.shields.io/badge/Deploy-Passé-brightgreen?style=for-the-badge)](https://titanic-c021df7f.fastapicloud.dev)
 
-Bienvenue sur la **Titanic MLOps Platform**, un écosystème complet de production conçu pour l'industrialisation des modèles de Machine Learning. Ce projet transforme le célèbre dataset du Titanic en un service cloud souverain, hautement disponible et transparent grâce à l'**IA Explicable (XAI)**.
+Bienvenue sur la **Titanic MLOps Platform**, un écosystème complet de production conçu pour l'industrialisation des modèles de Machine Learning. Ce projet transforme le célèbre dataset du Titanic en un service cloud souverain et hautement disponible.
 
 ---
 
@@ -20,26 +19,14 @@ Accédez à l'environnement de production ici :
 ```mermaid
 graph TD
     A[Utilisateur / Browser] -->|Requête HTTPS| B(FastAPI Gateway)
-    B --> C{Module XAI}
     B --> D[Pipeline de Prédiction]
     D --> E[Modèle Random Forest]
-    C -->|Influence des Facteurs| F[UI Bureau des Archives]
-    E --> F
+    E --> F[UI Bureau des Archives]
     B --> G[Pupitre Monitoring]
     G --> H[(Logs JSONL)]
     G --> I[Analyse de Drift]
 ```
 
----
-
-## 🧠 IA Explicable (XAI) : Pourquoi le modèle survit ?
-Contrairement aux modèles "boîte noire", notre plateforme décompose chaque décision pour offrir une transparence totale. Pour chaque prédiction, le système calcule trois vecteurs d'influence :
-
-*   **Influence Sociale** : Impact de la classe (PClass) et du tarif payé.
-*   **Influence Profil** : Impact du sexe, de l'âge et de la structure familiale.
-*   **Influence Proximité** : Impact de la cabine et du port d'embarquement.
-
----
 
 ## 📊 Gouvernance MLOps & Monitoring
 La plateforme intègre un cycle de vie MLOps complet conforme aux standards industriels :
