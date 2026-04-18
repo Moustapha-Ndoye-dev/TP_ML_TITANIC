@@ -358,8 +358,7 @@ HTML_USER_PAGE = """<!DOCTYPE html>
         <span>BUREAU DES PRÉDICTIONS</span>
         <span>ÉMISSION : 1912 / 2026</span>
         <div style="display:flex; gap:1rem;">
-            <button class="admin-btn" style="background:var(--ocean-blue);" onclick="toggleConnexion()">🔓 CONNEXION</button>
-            <button id="adminAccessBtn" class="admin-btn" style="display:none;" onclick="loginAdmin()">🔑 ACCÈS ADMIN</button>
+            <button class="admin-btn" style="background:var(--ocean-blue);" onclick="loginAdmin()">🔓 CONNEXION</button>
         </div>
     </div>
 
@@ -497,10 +496,6 @@ HTML_USER_PAGE = """<!DOCTYPE html>
     </div>
 
     <script>
-        function toggleConnexion() {
-            const btn = document.getElementById('adminAccessBtn');
-            btn.style.display = btn.style.display === 'none' ? 'block' : 'none';
-        }
         function loginAdmin() {
             document.getElementById('loginOverlay').style.display = 'flex';
             setTimeout(() => document.getElementById('loginCard').classList.add('active'), 10);
@@ -813,10 +808,6 @@ HTML_ADMIN_PAGE = """<!DOCTYPE html>
                 <div class="metric-card" style="background:#fff; color:var(--ink-black); border-color:var(--ink-fade);">
                     <div class="metric-value" id="ramUsage">--%</div>
                     <div>UTILISATION MÉMOIRE (RAM)</div>
-                </div>
-                <div class="metric-card" style="background:var(--ink-black);">
-                    <div class="metric-value" id="driftStatus" style="font-size:3rem; padding-top:0.5rem; font-weight:900;">OK</div>
-                    <div>STATUT DU MODÈLE (DRIFT)</div>
                 </div>
             </div>
 
