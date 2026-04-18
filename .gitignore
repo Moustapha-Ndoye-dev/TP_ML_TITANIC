@@ -21,10 +21,10 @@ env/
 .idea/
 
 # Models & MLOps (Heavy / Runtime files)
-models/*.pkl
-models/*.joblib
-models/*.json
-notebooks/models/
+# models/*.pkl
+# models/*.joblib
+# models/*.json
+# notebooks/models/
 prediction_logs.json
 !models/.gitkeep
 
