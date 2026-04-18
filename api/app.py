@@ -207,15 +207,23 @@ def make_prediction(pclass, name, sex, age, sibsp, parch, fare, cabin, embarked)
         survival_proba = float(prediction)
 
     # Calcul des influences XAI (Explainable AI)
+    # On extrait les poids directement du "cerveau" du modèle (coefs ou importances)
     influences = {"social": 0.0, "profil": 0.0, "proximité": 0.0}
+    
+    # 1. Extraction des importances/poids
+    weights = None
     if hasattr(model, "coef_"):
-        coefs = model.coef_[0]
-        # X est un DataFrame d'une ligne
+        weights = model.coef_[0]
+    elif hasattr(model, "feature_importances_"):
+        weights = model.feature_importances_
+    
+    if weights is not None:
         row_values = X.iloc[0].values
-        
         for i, feat in enumerate(feature_names):
             val = row_values[i]
-            impact = val * coefs[i]
+            # Pour un Random Forest, on multiplie l'importance par la direction de l'input
+            # Pour un modèle linéaire, c'est la multiplication directe
+            impact = val * weights[i]
             
             f_lower = feat.lower()
             if any(x in f_lower for x in ["pclass", "fare"]):
@@ -225,9 +233,8 @@ def make_prediction(pclass, name, sex, age, sibsp, parch, fare, cabin, embarked)
             else:
                 influences["proximité"] += impact
 
-    # Normalisation simple pour l'affichage (ex: -5 à +5)
+    # Normalisation pour l'affichage (-5 à +5)
     for k in influences:
-        # On plafonne pour éviter des barres trop longues
         influences[k] = round(max(-5, min(5, influences[k])), 2)
 
     return bool(prediction), survival_proba, influences
